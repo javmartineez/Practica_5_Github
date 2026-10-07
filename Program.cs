@@ -4,9 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"{Add(2,8)}");
+            Console.WriteLine($"{Divide(8,2)}");
         }
 
-        static int Add(int x, int y) {return x + y;} 
+        static int Add(int x, int y) {return x + y;}
+        static int Divide(int x, int y) { return x / y; }
     }
 }
